@@ -1,0 +1,43 @@
+{
+  "name": "events",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.4.0",
+    "@fortawesome/free-solid-svg-icons": "^6.4.0",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@stripe/react-stripe-js": "^2.1.0",
+    "@stripe/stripe-js": "^1.53.0",
+    "@typehaus/metropolis": "^12.0.0-next.7",
+    "avatar-reactjs": "^1.0.5",
+    "axios": "^1.4.0",
+    "buffer": "^6.0.3",
+    "moment": "^2.29.4",
+    "next": "12.3.1",
+    "query-string": "^8.1.0",
+    "react": "18.2.0",
+    "react-counter-input": "^0.2.1",
+    "react-dom": "18.2.0",
+    "react-linkify": "^1.0.0-alpha",
+    "react-responsive-carousel": "^3.2.23",
+    "react-router-dom": "^6.11.1",
+    "react-toastify": "^9.1.2",
+    "reactstrap": "^9.1.9",
+    "sass": "^1.62.1",
+    "stripe": "^12.7.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/line-clamp": "^0.4.4",
+    "autoprefixer": "^10.4.14",
+    "eslint": "8.25.0",
+    "eslint-config-next": "12.3.1",
+    "postcss": "^8.4.23",
+    "tailwindcss": "^3.3.2"
+  }
+}

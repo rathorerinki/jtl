@@ -1,0 +1,97 @@
+@import '@typehaus/metropolis';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+html,
+body {
+  padding: 0;
+  margin: 0;
+  /* font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif; */
+  font-family: 'Metropolis', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+.remove{
+  -webkit-focus-ring-color: none;
+  -webkit-appearance: none;
+}
+
+.line-clamp-2{
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden; 
+  font-size: 1rem;
+  line-height: 1.8rem;
+  height: 3.9rem;
+}
+
+/* .myTestClass > * {
+  
+  color:yellow !important;
+  font-size:  16px !important;
+  font-family: 'Metropolis', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Open Sans', 'Helvetica Neue', sans-serif !important;
+}*/
+
+@media screen and (max-width: 768px){
+  .myTestClass > * {  
+    color:black !important;
+    font-size:  16px !important;
+    font-family: 'Metropolis', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Open Sans', 'Helvetica Neue', sans-serif !important;
+  }
+} 
+
+@media screen and (max-width: 768px) and (prefers-color-scheme: dark) {
+  .myTestClass > * {  
+    color:white !important;
+    font-size:  16px !important;
+    font-family: 'Metropolis', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Open Sans', 'Helvetica Neue', sans-serif !important;
+  }
+} 
+
+
+@media screen and (min-width: 769px) {
+  .myTestClass > * {  
+    color:black !important;
+    font-size:  18px !important;
+    font-family: 'Metropolis', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Open Sans', 'Helvetica Neue', sans-serif !important;
+  }
+} 
+
+
+@media screen and (min-width: 769px) and (prefers-color-scheme: dark) {
+  .myTestClass > * {  
+    color:white !important;
+    font-size:  18px !important;
+    font-family: 'Metropolis', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Open Sans', 'Helvetica Neue', sans-serif !important;
+  }
+} 
+
+
+
+
+@media screen and (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+  body {
+    color: white;
+    background: black;
+  }
+
+  
+  /* .myTestClass > * {
+    color:white !important;
+    font-size:  16px !important;
+    font-family: 'Metropolis', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Open Sans', 'Helvetica Neue', sans-serif !important;
+  } */
+}
